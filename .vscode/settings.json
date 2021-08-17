@@ -1,0 +1,47 @@
+{
+    "editor.tabSize": 8,
+    "editor.rulers": [
+        150,
+    ],
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.formatOnSave": true,
+
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    "C_Cpp.formatting": "clangFormat",
+    "clang-format.executable": "/absolute/path/to/clang-format",
+    "clang-tidy.lintOnSave": true,
+
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "cSpell.words": [
+        "cmake",
+        "deque",
+        "devcontainer",
+        "ints",
+        "floats",
+        "rclcpp",
+        "rclpy",
+        "repos",
+        "rosdistro",
+        "distro"
+    ],
+    "cSpell.allowCompoundWords": true,
+    "cSpell.ignorePaths": [
+        "**/package-lock.json",
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/objects/**",
+        ".vscode",
+        ".vscode-insiders",
+    ],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/build": true,
+        "**/install": true,
+        "**/log": true,
+        "**/.git": true
+    }
+}
