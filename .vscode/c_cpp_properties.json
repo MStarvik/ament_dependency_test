@@ -1,6 +1,6 @@
 {
     "env": {
-        "rosFoxyIncludePath":"/opt/ros/foxy/include/**",
+        "rosFoxyIncludePath":"/opt/ros/foxy/include/**"
     },
     "configurations": [
         {
