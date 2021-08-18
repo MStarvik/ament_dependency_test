@@ -1,7 +1,7 @@
 {
-    "editor.tabSize": 8,
+    "editor.tabSize": 4,
     "editor.rulers": [
-        150,
+        120,
     ],
     "editor.defaultFormatter": "xaver.clang-format",
     "editor.formatOnSave": true,
@@ -35,6 +35,10 @@
         ".vscode",
         ".vscode-insiders",
     ],
+    "files.associations": {
+        ".clang-tidy": "yaml",
+        ".clang-format": "yaml"
+    },
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
@@ -43,5 +47,9 @@
         "**/install": true,
         "**/log": true,
         "**/.git": true
-    }
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/ascend/mission9_pipeline/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
 }
