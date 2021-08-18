@@ -1,12 +1,12 @@
 {
     "env": {
-        "rosFoxyIncludePath":"/opt/ros/foxy/include/**"
+        "rosFoxyIncludePath":"/opt/ros/eloquent/include/**"
     },
     "configurations": [
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/**",
                 "${rosFoxyIncludePath}"
             ],
             "defines": [],
