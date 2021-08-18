@@ -3,15 +3,26 @@
     // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
+        // Build for release
         {
             "label": "build",
             "detail": "Build workspace (default)",
             "type": "shell",
-            "command": "colcon build --merge-install --cmake-args '-DCMAKE_BUILD_TYPE=debug' ",
+            "command": "colcon build --merge-install --cmake-args '-DCMAKE_BUILD_TYPE=RelWithDebInfo' ",
+
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
+            "problemMatcher": "$gcc"
+        },
+        // Build for debug
+        {
+            "label": "debug",
+            "detail": "Build workspace (debug)",
+            "type": "shell",
+            "command": "colcon build --symlink-install --cmake-args '-DCMAKE_BUILD_TYPE=Debug' ",
+            "group": "build",
             "problemMatcher": "$gcc"
         },
     ]
