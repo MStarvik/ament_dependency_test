@@ -1,6 +1,6 @@
 {
     "env": {
-        "rosFoxyIncludePath":"/opt/ros/eloquent/include/**"
+        "rosFoxyIncludePath":"/opt/ros/foxy/include/**"
     },
     "configurations": [
         {
