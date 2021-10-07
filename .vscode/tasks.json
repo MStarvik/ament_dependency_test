@@ -25,7 +25,7 @@
             "group": "build",
             "problemMatcher": "$gcc"
         },
-        /**{
+        {
             "label": "fix",
             "detail": "Reformat files with uncrustify.",
             "type": "shell",
@@ -59,7 +59,7 @@
                 }
             ]
         },
-                ]**/
+                
         {
             "label": "cpplint",
             "detail": "Lint files with cpplint.",
