@@ -1,7 +1,8 @@
 #include <cstdio>
 
-int main(int argc, char ** argv)
-{
+// Copyright 2021 Ascend NTNU
+
+int main(int argc, char ** argv){
   (void) argc;
   (void) argv;
 

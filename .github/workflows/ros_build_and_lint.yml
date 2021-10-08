@@ -4,9 +4,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, testbranch ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, testbranch ]
   
   workflow_dispatch:
 
@@ -24,7 +24,7 @@ jobs:
         uses: ros-tooling/action-ros-ci@0.2.3
         with: 
           target-ros2-distro: foxy
-          skip-tests: true
+          #skip-tests: true
 
 
       - name: Upload logs
