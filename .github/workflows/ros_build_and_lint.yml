@@ -1,4 +1,4 @@
-# This is a workflow for ROS 2 which builds, lints and logs the results
+# This is a workflow for ROS 2 which builds, lints, tests and logs the results
 
 name: CI
 
