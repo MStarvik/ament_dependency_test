@@ -11,7 +11,7 @@ Progress and results of the workflow actions can be found under "Actions" in you
 You may encounter a problem where you do not have adequate file permissions for the `/workspaces` directory. This can be fixed by opening file permissions for all users of `/workspaces`. Do this by running:
 
 ```
-sudo chmod -R workspaces
+sudo chmod -R 777 workspaces
 ```
 
 Another solution is using the branch `docker-rootless`.
