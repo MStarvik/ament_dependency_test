@@ -6,11 +6,12 @@
     "editor.defaultFormatter": "xaver.clang-format",
     "editor.formatOnSave": true,
 
-    "C_Cpp.default.intelliSenseMode": "clang-x64",
-    "C_Cpp.formatting": "clangFormat",
-    "clang-format.executable": "/absolute/path/to/clang-format",
-    "clang-tidy.lintOnSave": true,
-
+    "clangd.path": "clangd-13",
+    "clang-format.executable": "clang-format-13",
+    "clang-tidy.executable": "clang-tidy-13",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
