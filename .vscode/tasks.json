@@ -14,7 +14,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": "$gcc"
+            // "problemMatcher": "$gcc" // requires the c/c++ extension, which interferes with clangd
         },
         // Build for debug
         {
@@ -23,7 +23,7 @@
             "type": "shell",
             "command": "colcon build --symlink-install --cmake-args '-DCMAKE_BUILD_TYPE=Debug' ",
             "group": "build",
-            "problemMatcher": "$gcc"
+            // "problemMatcher": "$gcc" // requires the c/c++ extension, which interferes with clangd
         },
         {
             "label": "fix",

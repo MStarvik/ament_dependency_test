@@ -9,6 +9,7 @@
     "clangd.path": "clangd-13",
     "clang-format.executable": "clang-format-13",
     "clang-tidy.executable": "clang-tidy-13",
+
     "[c]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
