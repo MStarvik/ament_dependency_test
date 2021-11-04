@@ -118,11 +118,9 @@
         "**/.git": true
     },
     "python.autoComplete.extraPaths": [
-        "/home/ascend/mission9_pipeline/devel/lib/python2.7/dist-packages",
-        "/opt/ros/melodic/lib/python2.7/dist-packages"
+        "/opt/ros/foxy/lib/python3.8/site-packages"
     ],
     "python.analysis.extraPaths": [
-        "/home/ascend/mission9_pipeline/devel/lib/python2.7/dist-packages",
-        "/opt/ros/melodic/lib/python2.7/dist-packages"
+        "/opt/ros/foxy/lib/python3.8/site-packages"
     ]
 }
