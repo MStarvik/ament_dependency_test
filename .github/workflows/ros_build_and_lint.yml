@@ -1,0 +1,36 @@
+# This is a workflow for ROS 2 which builds, lints and logs the results
+
+name: CI
+
+on:
+  push:
+    branches: [ master, testbranch ]
+  pull_request:
+    branches: [ master, testbranch ]
+  
+  workflow_dispatch:
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Setup ROS 2
+        uses: ros-tooling/setup-ros@0.2.1 
+        with:
+          required-ros-distributions: foxy
+
+      - name: ROS 2 Lint Action
+        uses: ros-tooling/action-ros-ci@0.2.3
+        with: 
+          target-ros2-distro: foxy
+          #skip-tests: true
+
+
+      - name: Upload logs
+        uses: actions/upload-artifact@v1
+        with:
+          name: colcon-logs
+          path: ros_ws/log
+        if: always()
+
