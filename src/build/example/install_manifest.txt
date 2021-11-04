@@ -1,0 +1,16 @@
+/workspaces/ROS2/src/install/lib/example/example_node
+/workspaces/ROS2/src/install/share/ament_index/resource_index/package_run_dependencies/example
+/workspaces/ROS2/src/install/share/ament_index/resource_index/parent_prefix_path/example
+/workspaces/ROS2/src/install/share/example/environment/ament_prefix_path.sh
+/workspaces/ROS2/src/install/share/example/environment/ament_prefix_path.dsv
+/workspaces/ROS2/src/install/share/example/environment/path.sh
+/workspaces/ROS2/src/install/share/example/environment/path.dsv
+/workspaces/ROS2/src/install/share/example/local_setup.bash
+/workspaces/ROS2/src/install/share/example/local_setup.sh
+/workspaces/ROS2/src/install/share/example/local_setup.zsh
+/workspaces/ROS2/src/install/share/example/local_setup.dsv
+/workspaces/ROS2/src/install/share/example/package.dsv
+/workspaces/ROS2/src/install/share/ament_index/resource_index/packages/example
+/workspaces/ROS2/src/install/share/example/cmake/exampleConfig.cmake
+/workspaces/ROS2/src/install/share/example/cmake/exampleConfig-version.cmake
+/workspaces/ROS2/src/install/share/example/package.xml

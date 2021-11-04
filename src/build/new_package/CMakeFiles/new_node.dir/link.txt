@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/new_node.dir/src/new_node.cpp.o  -o new_node 

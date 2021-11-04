@@ -1,0 +1,33 @@
+[0.246s] Invoking command in '/workspaces/ROS2/src/python_package': PYTHONPATH=/workspaces/ROS2/src/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_package build --build-base /workspaces/ROS2/src/build/python_package/build install --prefix /workspaces/ROS2/src/install --record /workspaces/ROS2/src/build/python_package/install.log --single-version-externally-managed
+[0.471s] running egg_info
+[0.471s] creating ../build/python_package/python_package.egg-info
+[0.471s] writing ../build/python_package/python_package.egg-info/PKG-INFO
+[0.472s] writing dependency_links to ../build/python_package/python_package.egg-info/dependency_links.txt
+[0.472s] writing entry points to ../build/python_package/python_package.egg-info/entry_points.txt
+[0.472s] writing requirements to ../build/python_package/python_package.egg-info/requires.txt
+[0.472s] writing top-level names to ../build/python_package/python_package.egg-info/top_level.txt
+[0.487s] writing manifest file '../build/python_package/python_package.egg-info/SOURCES.txt'
+[0.566s] reading manifest file '../build/python_package/python_package.egg-info/SOURCES.txt'
+[0.567s] writing manifest file '../build/python_package/python_package.egg-info/SOURCES.txt'
+[0.567s] running build
+[0.568s] running build_py
+[0.568s] creating /workspaces/ROS2/src/build/python_package/build
+[0.568s] creating /workspaces/ROS2/src/build/python_package/build/lib
+[0.568s] creating /workspaces/ROS2/src/build/python_package/build/lib/python_package
+[0.568s] copying python_package/__init__.py -> /workspaces/ROS2/src/build/python_package/build/lib/python_package
+[0.568s] running install
+[0.568s] running install_lib
+[0.570s] creating /workspaces/ROS2/src/install/lib/python3.8/site-packages/python_package
+[0.570s] copying /workspaces/ROS2/src/build/python_package/build/lib/python_package/__init__.py -> /workspaces/ROS2/src/install/lib/python3.8/site-packages/python_package
+[0.570s] byte-compiling /workspaces/ROS2/src/install/lib/python3.8/site-packages/python_package/__init__.py to __init__.cpython-38.pyc
+[0.571s] running install_data
+[0.572s] creating /workspaces/ROS2/src/install/share/ament_index
+[0.572s] creating /workspaces/ROS2/src/install/share/ament_index/resource_index
+[0.572s] creating /workspaces/ROS2/src/install/share/ament_index/resource_index/packages
+[0.572s] copying resource/python_package -> /workspaces/ROS2/src/install/share/ament_index/resource_index/packages
+[0.573s] copying package.xml -> /workspaces/ROS2/src/install/share/python_package
+[0.573s] running install_egg_info
+[0.583s] Copying ../build/python_package/python_package.egg-info to /workspaces/ROS2/src/install/lib/python3.8/site-packages/python_package-0.0.0-py3.8.egg-info
+[0.584s] running install_scripts
+[0.604s] writing list of installed files to '/workspaces/ROS2/src/build/python_package/install.log'
+[0.631s] Invoked command in '/workspaces/ROS2/src/python_package' returned '0': PYTHONPATH=/workspaces/ROS2/src/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_package build --build-base /workspaces/ROS2/src/build/python_package/build install --prefix /workspaces/ROS2/src/install --record /workspaces/ROS2/src/build/python_package/install.log --single-version-externally-managed

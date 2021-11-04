@@ -1,0 +1,16 @@
+/workspaces/ROS2/src/install/lib/new_package/new_node
+/workspaces/ROS2/src/install/share/ament_index/resource_index/package_run_dependencies/new_package
+/workspaces/ROS2/src/install/share/ament_index/resource_index/parent_prefix_path/new_package
+/workspaces/ROS2/src/install/share/new_package/environment/ament_prefix_path.sh
+/workspaces/ROS2/src/install/share/new_package/environment/ament_prefix_path.dsv
+/workspaces/ROS2/src/install/share/new_package/environment/path.sh
+/workspaces/ROS2/src/install/share/new_package/environment/path.dsv
+/workspaces/ROS2/src/install/share/new_package/local_setup.bash
+/workspaces/ROS2/src/install/share/new_package/local_setup.sh
+/workspaces/ROS2/src/install/share/new_package/local_setup.zsh
+/workspaces/ROS2/src/install/share/new_package/local_setup.dsv
+/workspaces/ROS2/src/install/share/new_package/package.dsv
+/workspaces/ROS2/src/install/share/ament_index/resource_index/packages/new_package
+/workspaces/ROS2/src/install/share/new_package/cmake/new_packageConfig.cmake
+/workspaces/ROS2/src/install/share/new_package/cmake/new_packageConfig-version.cmake
+/workspaces/ROS2/src/install/share/new_package/package.xml

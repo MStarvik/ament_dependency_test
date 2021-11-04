@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/ROS2/src/build/new_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /workspaces/ROS2/src/new_package -DCMAKE_INSTALL_PREFIX=/workspaces/ROS2/src/install
+Invoked command in '/workspaces/ROS2/src/build/new_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /workspaces/ROS2/src/new_package -DCMAKE_INSTALL_PREFIX=/workspaces/ROS2/src/install
+Invoking command in '/workspaces/ROS2/src/build/new_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/ROS2/src/build/new_package -- -j4 -l4
+Invoked command in '/workspaces/ROS2/src/build/new_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/ROS2/src/build/new_package -- -j4 -l4
+Invoking command in '/workspaces/ROS2/src/build/new_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/ROS2/src/build/new_package
+Invoked command in '/workspaces/ROS2/src/build/new_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/ROS2/src/build/new_package

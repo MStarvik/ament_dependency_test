@@ -1,0 +1,58 @@
+# This is a workflow for ROS 2 which builds, lints, tests and logs the results
+
+name: CI
+
+on:
+  push:
+    branches: [ master, test_action ]
+  pull_request:
+    branches: [ master, test_action ]
+  
+  workflow_dispatch:
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Setup ROS 2
+        uses: ros-tooling/setup-ros@0.2.1 
+        with:
+          required-ros-distributions: foxy
+
+      - name: ROS 2 Lint and Test Action
+        uses: ros-tooling/action-ros-ci@0.2.3
+        with: 
+          target-ros2-distro: foxy
+          #skip-tests: true
+          colcon-defaults: |
+            {
+              "build": {
+                "mixin": ["coverage-gcc", "coverage-pytest"]
+              },
+              "test": {
+                "mixin": ["coverage-pytest"]
+              }
+            }
+      - name: Upload logs
+        uses: actions/upload-artifact@v1
+        with:
+          name: colcon-logs
+          path: ros_ws/log
+        if: always()
+
+  unit_test_python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Python 3
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip freeze > requirements.txt
+          pip install pytest
+      - name: Run tests with pytest
+        run: python3 -m pytest 

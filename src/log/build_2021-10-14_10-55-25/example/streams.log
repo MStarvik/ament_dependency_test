@@ -1,0 +1,57 @@
+[0.019s] Invoking command in '/workspaces/ROS2/src/build/example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /workspaces/ROS2/src/example -DCMAKE_INSTALL_PREFIX=/workspaces/ROS2/src/install
+[0.083s] -- The C compiler identification is GNU 9.3.0
+[0.138s] -- The CXX compiler identification is GNU 9.3.0
+[0.147s] -- Check for working C compiler: /usr/bin/cc
+[0.231s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.232s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.355s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++
+[0.453s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.454s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.542s] -- Detecting CXX compile features
+[0.542s] -- Detecting CXX compile features - done
+[0.545s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.568s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.568s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.761s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.831s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.832s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspaces/ROS2/src/example/include>
+[0.832s] -- Configured cppcheck exclude dirs and/or files: 
+[0.833s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.833s] -- Configured cpplint exclude dirs and/or files: 
+[0.833s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.834s] -- Added test 'lint_cmake' to check CMake code style
+[0.835s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.836s] -- Added test 'xmllint' to check XML markup files
+[0.838s] -- Configuring done
+[0.842s] -- Generating done
+[0.843s] -- Build files have been written to: /workspaces/ROS2/src/build/example
+[0.853s] Invoked command in '/workspaces/ROS2/src/build/example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /workspaces/ROS2/src/example -DCMAKE_INSTALL_PREFIX=/workspaces/ROS2/src/install
+[0.853s] Invoking command in '/workspaces/ROS2/src/build/example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/ROS2/src/build/example -- -j4 -l4
+[0.895s] [35m[1mScanning dependencies of target example_node[0m
+[0.907s] [ 50%] [32mBuilding CXX object CMakeFiles/example_node.dir/src/example_node.cpp.o[0m
+[0.938s] [100%] [32m[1mLinking CXX executable example_node[0m
+[0.987s] [100%] Built target example_node
+[0.998s] Invoked command in '/workspaces/ROS2/src/build/example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/ROS2/src/build/example -- -j4 -l4
+[1.032s] Invoking command in '/workspaces/ROS2/src/build/example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/ROS2/src/build/example
+[1.044s] -- Install configuration: ""
+[1.044s] -- Installing: /workspaces/ROS2/src/install/lib/example/example_node
+[1.044s] -- Installing: /workspaces/ROS2/src/install/share/ament_index/resource_index/package_run_dependencies/example
+[1.044s] -- Installing: /workspaces/ROS2/src/install/share/ament_index/resource_index/parent_prefix_path/example
+[1.044s] -- Installing: /workspaces/ROS2/src/install/share/example/environment/ament_prefix_path.sh
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/environment/ament_prefix_path.dsv
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/environment/path.sh
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/environment/path.dsv
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/local_setup.bash
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/local_setup.sh
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/local_setup.zsh
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/local_setup.dsv
+[1.045s] -- Installing: /workspaces/ROS2/src/install/share/example/package.dsv
+[1.046s] -- Installing: /workspaces/ROS2/src/install/share/ament_index/resource_index/packages/example
+[1.046s] -- Installing: /workspaces/ROS2/src/install/share/example/cmake/exampleConfig.cmake
+[1.046s] -- Installing: /workspaces/ROS2/src/install/share/example/cmake/exampleConfig-version.cmake
+[1.046s] -- Installing: /workspaces/ROS2/src/install/share/example/package.xml
+[1.048s] Invoked command in '/workspaces/ROS2/src/build/example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/ROS2/src/build/example

@@ -1,0 +1,10 @@
+/workspaces/ROS2/src/build/new_package/CMakeFiles/install/strip.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/install/local.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/install.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/list_install_components.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/rebuild_cache.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/edit_cache.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/test.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/new_node.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/new_package_uninstall.dir
+/workspaces/ROS2/src/build/new_package/CMakeFiles/uninstall.dir
