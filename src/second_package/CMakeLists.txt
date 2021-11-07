@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(example)
+project(second_package)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -19,14 +19,16 @@ endif()
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(first_package REQUIRED)
 
-add_executable(example_node src/example_node.cpp)
-target_include_directories(example_node PUBLIC
+add_executable(executable src/executable.cpp)
+target_include_directories(executable PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
-install(TARGETS example_node
+target_link_libraries(executable first_package::library)
+
+install(TARGETS executable
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
